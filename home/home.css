@@ -1,0 +1,174 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+:root {
+    --bg-gradient: linear-gradient(180deg, #FFEEE8 -36.19%, #FBEBF8 41.31%, #F7F6FF 100%);
+    --bg-background: linear-gradient(180deg, #FEF0EB -36.19%, #F3F0FF 100%);
+}
+.top-header {
+    background: var(--bg-gradient);
+}
+.ohoh-logo {
+    width: 81px;
+    height: 30px;
+}
+.offer-detail{
+    background: var(--bg-background); 
+}
+.offer-detail h5{
+    color: #FF5D25;
+}
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+:root {
+    --bg-gradient: linear-gradient(180deg, #FFEEE8 -36.19%, #FBEBF8 41.31%, #F7F6FF 100%);
+    --bg-background: linear-gradient(180deg, #FEF0EB -36.19%, #F3F0FF 100%);
+}
+
+.top-header {
+    background: var(--bg-gradient);
+}
+
+.ohoh-logo {
+    width: 81px;
+    height: 30px;
+}
+.contact-btn{
+    border-radius: 32px;
+    border: 1px solid rgba(255, 77, 0, 0.45);
+    border-bottom: none;
+    background: #F7F6FF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: black;
+    padding: 12px 17px;
+  
+}
+.request_btn{
+    border-radius: 32px;
+    border: 1px solid rgba(255, 77, 0, 0.45);
+    border-bottom: none;
+    background: #F7F6FF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: black;
+    padding: 11.5px 20px;
+}
+.request_btn:hover {
+    background-color: #FF5D25;
+    color: #F7F6FF;
+}
+.getstarted_btn{
+    border-radius: 32px;
+    background: #FF5D25;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: white;
+    padding: 11.5px 20px;
+}
+
+.offer-detail {
+    background: var(--bg-background);
+
+}
+
+.offer-detail h5 {
+    color: #FF5D25;
+}
+
+.dealer-users {
+    background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
+    border-radius: 12px;
+
+}
+
+.regional {
+    border-radius: 8px;
+    border: 1px solid #EAEAEE;
+    background: #FFF;
+}
+
+.purchase-order {
+
+    background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
+    border-radius: 12px;
+}
+
+.core-element {
+
+    background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
+    border-radius: 12px;
+}
+
+.dealer {
+    border-radius: 50px;
+    border: 1px solid rgba(191, 200, 226, 0.30);
+    background: #FFF;
+}
+
+.essential-data {
+    background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
+    border-radius: 12px;
+}
+
+.dealer-no {
+    width: 156px;
+    height: 65px;
+    border-radius: 12px;
+    border: 1px solid #EAEAEE;
+    background: #FFF;
+}
+
+.stocks {
+    width: 130px;
+    height: 65px;
+
+    border-radius: 12px;
+    border: 1px solid #EAEAEE;
+    background: #FFF;
+}
+
+.dealer-info {
+    background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
+    border-radius: 12px;
+    height: 550px;
+}
+.dealer-chart{
+    width: 278px;
+
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid #EAEAEE;
+background: #FFF;
+}
+.form-detail{
+    background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
+    border-radius: 12px;
+   
+}
+.input-box{
+    width: 308px;
+height: 30px;
+
+border-radius: 5px;
+border: 1px solid #EAEAEE;
+}
+.product-device h5{
+    color: #FF5D25;
+}
+.slider{
+    border-radius: 15px;
+border: 1px solid #FFE3D4;
+
+}
+.gaura-info h4{
+    color: #FF5D25;
+}
