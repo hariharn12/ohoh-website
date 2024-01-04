@@ -139,7 +139,6 @@
 .dealer-info {
     background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
     border-radius: 12px;
-    height: 550px;
 }
 .dealer-chart{
     width: 278px;
@@ -171,4 +170,14 @@ border: 1px solid #FFE3D4;
 }
 .gaura-info h4{
     color: #FF5D25;
+}
+.dealer-colabration{
+    height: 600px;
+    border-radius: 12px;
+}
+.border-style {
+    background-color: #FF5D25;
+    height: 3px;
+    width: 4%;
+    position: center;
 }
