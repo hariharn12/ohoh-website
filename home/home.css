@@ -1,26 +1,4 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    font-family: Montserrat;
-}
-:root {
-    --bg-gradient: linear-gradient(180deg, #FFEEE8 -36.19%, #FBEBF8 41.31%, #F7F6FF 100%);
-    --bg-background: linear-gradient(180deg, #FEF0EB -36.19%, #F3F0FF 100%);
-}
-.top-header {
-    background: var(--bg-gradient);
-}
-.ohoh-logo {
-    width: 81px;
-    height: 30px;
-}
-.offer-detail{
-    background: var(--bg-background); 
-}
-.offer-detail h5{
-    color: #FF5D25;
-}
- */
+
 
  * {
     margin: 0;
@@ -77,6 +55,8 @@
 
 .offer-detail {
     background: var(--bg-background);
+    border-radius: 12px;
+    
 
 }
 
@@ -181,3 +161,68 @@ border: 1px solid #FFE3D4;
     width: 4%;
     position: center;
 }
+
+.footer{
+    background-color: #0C0636;
+    color: #FFF;
+}
+.footer_link{
+    color: #D9D8D8;
+    text-decoration: none;
+}
+.footer_icon{
+    width: 30px;
+    height: 30px;
+    background-color: #CBCBCB;
+    border-radius: 20px;
+}
+.footer_icon:hover{
+    background-color: #FF5D25;
+    color: #fff;
+}
+.fa-facebook:hover{
+    color: #fff;
+}
+.fa-facebook{
+    color: black;
+}
+.fa-twitter:hover{
+    color: #fff;
+}
+.fa-twitter{
+    color: black;
+}
+.fa-instagram:hover{
+    color: #fff;
+}
+.fa-instagram{
+    color: black;
+}
+.fa-linkedin:hover{
+    color: #fff;
+}
+.fa-linkedin{
+    color: black;
+}
+.fa-youtube-play:hover{
+    color: #fff;
+}
+.fa-youtube-play{
+    color: black;
+}
+.read_more{
+    border-radius: 32px;
+    border: 1px solid rgba(255, 77, 0, 0.45);
+    /* border-bottom: none; */
+    background: #F7F6FF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    color: black;
+    padding: 5px 5px;
+    font-size: 12px;
+}
+.read_more:hover {
+    background-color: #FF5D25;
+    color: #fff;
+}
+
