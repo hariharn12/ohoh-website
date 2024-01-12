@@ -1,6 +1,4 @@
-
-
- * {
+* {
     margin: 0;
     padding: 0;
     font-family: Montserrat;
@@ -19,7 +17,8 @@
     width: 81px;
     height: 30px;
 }
-.contact-btn{
+
+.contact-btn {
     border-radius: 32px;
     border: 1px solid rgba(255, 77, 0, 0.45);
     border-bottom: none;
@@ -28,9 +27,10 @@
     text-decoration: none;
     color: black;
     padding: 12px 17px;
-  
+
 }
-.request_btn{
+
+.request_btn {
     border-radius: 32px;
     border: 1px solid rgba(255, 77, 0, 0.45);
     border-bottom: none;
@@ -40,11 +40,13 @@
     color: black;
     padding: 11.5px 20px;
 }
+
 .request_btn:hover {
     background-color: #FF5D25;
     color: #F7F6FF;
 }
-.getstarted_btn{
+
+.getstarted_btn {
     border-radius: 32px;
     background: #FF5D25;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
@@ -53,18 +55,18 @@
     padding: 11.5px 20px;
 }
 
-.offer-detail {
+.ohoh-platforms {
     background: var(--bg-background);
     border-radius: 12px;
-    
+
 
 }
 
-.offer-detail h5 {
+.ohoh-platforms h5 {
     color: #FF5D25;
 }
 
-.dealer-users {
+.ohoh-dms-connection {
     background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
     border-radius: 12px;
 
@@ -120,41 +122,48 @@
     background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
     border-radius: 12px;
 }
-.dealer-chart{
+
+.dealer-chart {
     width: 278px;
 
-flex-shrink: 0;
-border-radius: 12px;
-border: 1px solid #EAEAEE;
-background: #FFF;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #EAEAEE;
+    background: #FFF;
 }
-.form-detail{
+
+.form-detail {
     background-image: linear-gradient(180deg, #FEF0EB 0%, #F3F0FF 100%);
     border-radius: 12px;
-   
-}
-.input-box{
-    width: 308px;
-height: 30px;
 
-border-radius: 5px;
-border: 1px solid #EAEAEE;
 }
-.product-device h5{
+
+.input-box {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEE;
+}
+
+.product-device h5 {
     color: #FF5D25;
 }
-.slider{
+
+.slider {
     border-radius: 15px;
-border: 1px solid #FFE3D4;
+    border: 1px solid #FFE3D4;
 
 }
-.gaura-info h4{
+
+.gaura-info h4 {
     color: #FF5D25;
 }
-.dealer-colabration{
+
+.dealer-colabration {
     height: 600px;
     border-radius: 12px;
 }
+
 .border-style {
     background-color: #FF5D25;
     height: 3px;
@@ -162,58 +171,72 @@ border: 1px solid #FFE3D4;
     position: center;
 }
 
-.footer{
+/* footer-style */
+.footer {
     background-color: #0C0636;
     color: #FFF;
 }
-.footer_link{
+
+.footer_link {
     color: #D9D8D8;
     text-decoration: none;
 }
-.footer_icon{
+
+.footer_icon {
     width: 30px;
     height: 30px;
     background-color: #CBCBCB;
     border-radius: 20px;
 }
-.footer_icon:hover{
+
+.footer_icon:hover {
     background-color: #FF5D25;
     color: #fff;
 }
-.fa-facebook:hover{
+
+.fa-facebook:hover {
     color: #fff;
 }
-.fa-facebook{
+
+.fa-facebook {
     color: black;
 }
-.fa-twitter:hover{
+
+.fa-twitter:hover {
     color: #fff;
 }
-.fa-twitter{
+
+.fa-twitter {
     color: black;
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
     color: #fff;
 }
-.fa-instagram{
+
+.fa-instagram {
     color: black;
 }
-.fa-linkedin:hover{
+
+.fa-linkedin:hover {
     color: #fff;
 }
-.fa-linkedin{
+
+.fa-linkedin {
     color: black;
 }
-.fa-youtube-play:hover{
+
+.fa-youtube-play:hover {
     color: #fff;
 }
-.fa-youtube-play{
+
+.fa-youtube-play {
     color: black;
 }
-.read_more{
+
+.read_more {
     border-radius: 32px;
     border: 1px solid rgba(255, 77, 0, 0.45);
-    /* border-bottom: none; */
     background: #F7F6FF;
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
     text-decoration: none;
@@ -225,4 +248,3 @@ border: 1px solid #FFE3D4;
     background-color: #FF5D25;
     color: #fff;
 }
-
